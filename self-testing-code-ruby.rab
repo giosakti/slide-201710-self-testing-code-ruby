@@ -13,6 +13,10 @@
 : theme
    .
 
-= -
+= Self-testing code
 
 (('tag:center'))What is Self-testing code?
+
+== properties
+  : hide-title
+    true
