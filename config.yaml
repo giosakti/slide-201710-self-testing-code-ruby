@@ -1,0 +1,23 @@
+---
+id: self-testing-code-ruby-201710
+base_name: self-testing-code-ruby
+tags:
+- rabbit
+- ruby
+- rspec
+presentation_date: 2017-10-16
+version: 2017.10.16.1
+licenses:
+- MIT
+slideshare_id:
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :rd
+  name: Giovanni Sakti
+  email: giosakti@gmail.com
+  rubygems_user: giosakti
+  slideshare_user:
+  speaker_deck_user: giosakti 
