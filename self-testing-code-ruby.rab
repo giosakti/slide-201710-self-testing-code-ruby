@@ -167,6 +167,94 @@ Run the example and the test shall pass
 
 (('tag:center'))Repeat with new features
 
+= Exercises
+
+(('tag:center'))Now let's do some exercises...
+
+== properties
+  : hide-title
+    true
+
+= TDD Exercises (1)
+
+Create a Sentence from Words\n
+
+Without using "Array#each" iterator, create a method that will return a sentence when given an array of words.
+
+  # rouge ruby
+
+  create_sentence(["hello", "world"])
+  # will return: "hello world"
+
+= TDD Exercises (2)
+
+Find Palindromes
+
+Write a method that receives two positive integers "m" and "n" and returns an array of "n" palindrome numbers after "m" (including "m" itself).
+
+  # rouge ruby
+
+  find_palindrome(100, 2)
+  # will return [101, 111]
+
+  find_palindrome(22, 3)
+  # will return [22, 33, 44]
+
+= TDD Exercises (3)
+
+Descending Order
+
+Create a method that receives an integer as an argument and rearrange it to generate biggest possible value.
+
+  # rouge ruby
+
+  descending(21445) # will return 54421
+  descending(145263) # will return 654321
+  descending(1254859723) # will return 9875543221
+
+= TDD Exercises (4)
+
+Deep Count
+
+Create a method called deep_count that will return the number of elements in an array, including the number of elements of its sub arrays.
+
+= TDD Exercises (4) cont'd
+
+  # rouge ruby
+
+  deep_count([]) # will return 0
+  deep_count([1, 2, 3]) # will return 3
+
+  deep_count(["x", "y", ["z"]]) 
+  # will return 3 elements ("x", "y", ["z"]) in main array 
+  # plus 1 element ("z") in sub array 
+  # total = 4 elements
+
+  deep_count([1, 2, [3, 4, [5]]])
+  # total = 7 elements
+
+  deep_count([[[[[[[[[]]]]]]]]])
+  # total = 8 elements
+
+= TDD Exercises (5)
+
+Letter Count
+
+Create a method that receives a string as its argument and returns a hash that shows the number of occurrence of each letter in that string.
+
+= TDD Exercises (5) cont'd
+
+  # rouge ruby
+
+  letter_count("gojek")
+  # will return {:g=>1, :o=>1, :j=>1, :e=>1, :k=>1}
+
+  letter_count("kolla")
+  # will return {:k=>1, :o=>1, :l=>2, :a=>1}
+
+  letter_count("scholarship")
+  # will return {:s=>2, :c=>1, :h=>2, :o=>1, :l=>1, :a=>1, :r=>1, :i=>1, :p=>1}
+
 = Thanks
 
 (('tag:center'))Thanks
