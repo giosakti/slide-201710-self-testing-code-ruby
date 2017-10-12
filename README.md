@@ -29,8 +29,8 @@ Use the followings for notation of the author:
 
 ### Install
 
-    gem install slide-gio-self-testing-code-ruby-201710
+    gem install rabbit-slide-giosakti-self-testing-code-ruby-201710
 
 ### Show
 
-    rabbit slide-gio-self-testing-code-ruby-201710.gem
+    rabbit rabbit-slide-giosakti-self-testing-code-ruby-201710.gem
