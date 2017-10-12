@@ -1,6 +1,6 @@
 ---
-id: self-testing-code-ruby-201710
-base_name: self-testing-code-ruby-201710
+id: 201710-self-testing-code-ruby
+base_name: 201710-self-testing-code-ruby
 tags:
 - rabbit
 - ruby
