@@ -10,6 +10,7 @@ Rabbit::Task::Slide.new do |task|
 
   # You may include other themes here
   # spec.add_runtime_dependency("rabbit-theme-nyankosakana")
+  spec.add_runtime_dependency("rabbit-theme-starqle")
   # spec.add_runtime_dependency("rabbit-theme-yart")
 end
 
